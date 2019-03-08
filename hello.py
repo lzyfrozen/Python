@@ -1,8 +1,8 @@
-n = ['abc', '123', ',./']
-a = 2
-print(a, a, a, a, a)
-
-print(n.reverse())
+import collections
+d = collections.deque()
+d.extend(['a', 'b', 'c', 'd', 'e'])
+d.insert(2, 'z')
+print(d)
 
 
 def x():
