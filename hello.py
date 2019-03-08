@@ -1,7 +1,7 @@
 import collections
 d = collections.deque()
 d.extend(['a', 'b', 'c', 'd', 'e'])
-d.insert(2, 'z')
+d.insert(2, ['x', 'y', 'z'])
 print(d)
 
 
